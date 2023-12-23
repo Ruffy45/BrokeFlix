@@ -4,28 +4,26 @@ A little application to stream movies because we're too broke for Netflix and to
 
 ## Running the Script
 
+There are two methods to run the script:
+
 ### Method 1: Direct Script Execution
 
 1. Clone the repository:
-
     ```bash
     git clone https://github.com/your-username/BrokeFlix.git
     ```
 
 2. Navigate to the project directory:
-
     ```bash
     cd BrokeFlix
     ```
 
 3. Install dependencies (if any):
-
     ```bash
     # Add any necessary installation commands here
     ```
 
 4. Run the script:
-
     ```bash
     python main.py
     ```
@@ -41,30 +39,24 @@ A little application to stream movies because we're too broke for Netflix and to
 4. Navigate to the `dist/BrokeFlix` directory.
 
 5. Run the application:
-
     - On Windows:
-
         ```bash
         BrokeFlix.exe
         ```
-
     - On Linux/Mac:
-
         ```bash
         ./BrokeFlix
         ```
 
 ## Important Notes
 
-- **Two Ways to Run:**
-  Choose the method that suits you best: directly running the script or using the downloadable release.
+- **Two Ways to Run:** Choose the method that suits you best: directly running the script or using the downloadable release.
 
-- **Disclaimer:**
-  Please enter the correct movie or TV show name as listed on IMDb. Incorrect names may result in non-functional links. If the title doesn't exist on IMDb, the video won't work.
+- **Disclaimer:** Please enter the correct movie or TV show name as listed on IMDb. Incorrect names may result in non-functional links. If the title doesn't exist on IMDb, the video won't work.
 
 ## Troubleshooting
 
-- If you encounter issues, check the [troubleshooting](#troubleshooting) section in this README.
+If you encounter issues, check the [troubleshooting](#troubleshooting) section in this README.
 
 ## Contributing
 
