@@ -1,39 +1,71 @@
-Overview
-Movie Watcher is a Python script that allows users to watch movies or TV shows locally by generating an embed URL from the IMDb ID and optionally specifying the season and episode numbers for TV shows.
+# BrokeFlix
 
-Features
-IMDb ID Retrieval: Fetches the IMDb ID for a given movie or TV show using the Open Movie Database (OMDb) API.
+A little application to stream movies because we're too broke for Netflix and too lazy to search online.
 
-Local Streaming: Generates an embed URL for the specified IMDb ID, season, and episode (if applicable) to enable local streaming.
+## Running the Script
 
-Usage
-API Key Setup:
+### Method 1: Direct Script Execution
 
-Obtain an API key from OMDb API and replace "c826c758" with your actual API key.
-Run the Script:
+1. Clone the repository:
 
-Execute the script by running python main.py in the command line.
-The script will prompt you to enter the type of content (movie or TV show) and the title.
-Input IMDb ID:
+    ```bash
+    git clone https://github.com/your-username/BrokeFlix.git
+    ```
 
-The script will retrieve the IMDb ID for the entered movie or TV show title.
-If successful, it will display the IMDb ID.
-Optional TV Show Details:
+2. Navigate to the project directory:
 
-If watching a TV show, the script will ask for the season and episode numbers.
-Generate Embed URL:
+    ```bash
+    cd BrokeFlix
+    ```
 
-The script constructs an embed URL using the IMDb ID and optional season/episode details.
-Open in Default Browser:
+3. Install dependencies (if any):
 
-The script uses webbrowser to open the generated embed URL in the default web browser.
-Requirements
-Python 3.x
-requests library: Install using pip install requests
-webbrowser module: Built-in module, no separate installation required
-Notes
-Ensure that you have a valid OMDb API key for IMDb ID retrieval.
-The script opens the generated embed URL in the default web browser for local streaming.
-Disclaimer
-This script is for educational purposes and personal use. Respect the terms of service of external APIs and websites. The author is not responsible for any misuse of the script.
+    ```bash
+    # Add any necessary installation commands here
+    ```
 
+4. Run the script:
+
+    ```bash
+    python main.py
+    ```
+
+### Method 2: Using the Release
+
+1. Go to the [Releases](https://github.com/your-username/BrokeFlix/releases) section.
+
+2. Download the latest release package (`BrokeFlix.zip`).
+
+3. Extract the contents.
+
+4. Navigate to the `dist/BrokeFlix` directory.
+
+5. Run the application:
+
+    - On Windows:
+
+        ```bash
+        BrokeFlix.exe
+        ```
+
+    - On Linux/Mac:
+
+        ```bash
+        ./BrokeFlix
+        ```
+
+## Important Notes
+
+- **Two Ways to Run:**
+  Choose the method that suits you best: directly running the script or using the downloadable release.
+
+- **Disclaimer:**
+  Please enter the correct movie or TV show name as listed on IMDb. Incorrect names may result in non-functional links. If the title doesn't exist on IMDb, the video won't work.
+
+## Troubleshooting
+
+- If you encounter issues, check the [troubleshooting](#troubleshooting) section in this README.
+
+## Contributing
+
+Feel free to contribute by opening issues or pull requests.
