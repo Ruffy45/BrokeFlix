@@ -27,7 +27,7 @@ There are two methods to run the script:
 
 ### Method 2: Using the Release
 
-1. Go to the [Releases](https://github.com/your-username/BrokeFlix/releases) section.
+1. Go to the [Releases](https://github.com/Ruffy45/BrokeFlix/releases/tag/1.0.0) section.
 
 2. Download the latest release package (`BrokeFlix.zip`).
 
